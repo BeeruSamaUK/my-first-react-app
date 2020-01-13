@@ -2,14 +2,15 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config = {
-  apiKey: 'AIzaSyCdHT-AYHXjF7wOrfAchX4PIm3cSj5tn14',
-  authDomain: 'crwn-db.firebaseapp.com',
-  databaseURL: 'https://crwn-db.firebaseio.com',
-  projectId: 'crwn-db',
-  storageBucket: 'crwn-db.appspot.com',
-  messagingSenderId: '850995411664',
-  appId: '1:850995411664:web:7ddc01d597846f65'
+const config =  {
+  apiKey: "AIzaSyB0FYxbE3ycgBrc8LPPxzC7GdsIJgDocHs",
+  authDomain: "react-hcc.firebaseapp.com",
+  databaseURL: "https://react-hcc.firebaseio.com",
+  projectId: "react-hcc",
+  storageBucket: "react-hcc.appspot.com",
+  messagingSenderId: "941725595303",
+  appId: "1:941725595303:web:7f60ac3b4716f8273c0d82",
+  measurementId: "G-1WBEXGN5RH"
 };
 
 firebase.initializeApp(config);
